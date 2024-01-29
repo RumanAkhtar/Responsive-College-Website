@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo"><img src="./clg logo.jpg" alt=""></h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li class="ctn"><a href="#"></a>Log Out</li>
+        </ul>
+        <img src="./menu.png" alt="" class="menu-Btn">
+    </nav>
+   
+    <header>
+        <div class="sub-header-content">
+                <h1>Contact Us</h1>
+        </div>
+    </header>
+
+    <!-- ------------------------Contact Us------------------------>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>XYZ ROAD,ABCD BULIDING</h5>
+                    <P>Salem, Tamil Nadu, IN</P>
+                </span>
+            </div>
+            <div class="contact-col">
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+655313232</h5>
+                    <P>Monday to Saturday, 10AM to 6PM</P>
+                </span>
+            </div>
+            <div class="contact-col">
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>info@gmail.com</h5>
+                    <P>Email us your query</P>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="ctn">Send Message</button>
+            </form>
+        </div>
+
+    </section>
+
+   
+
+     <!---------------footer----------->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet co tenetur, enim reprehenderit, corporis deserunt nisi cumque nesciunt autem qui sequi illo aliquam itaque? <br>Error perferendis delectus adipisci nihil minus iusto quam, officia porro, animi molestiae atque repudiandae autem odio natus?</p>
+        <div class="icons">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Ruman AKHTAR </p>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+          const menuBtn = document.querySelector('.menu-Btn')
+          const navlinks = document.querySelector('.nav-links')
+
+          menuBtn.addEventListener('click',()=>{
+          navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+   
+    
+</body>
+</html>
